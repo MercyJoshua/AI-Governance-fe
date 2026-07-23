@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { Activity } from 'lucide-react';
 import { toast } from 'sonner';
 import Header from '@/components/safety/Header';
-import InputForm from '@/components/safety/InputForm';
-import ResponseCard from '@/components/safety/ResponseCard';
-import LogsTable from '@/components/safety/LogsTable';
-import StatsBar from '@/components/safety/StatsBar';
+import InputForm from '@/components/safety/input-form';
+import ResponseCard from '@/components/safety/response-card';
+import LogsTable from '@/components/safety/log-table';
+import StatsBar from '@/components/safety/stats-bar';
 import { analyzePrompt, clearLogs, fetchLogs } from '@/lib/api';
 import type { AnalysisResult, AnalyzeInput, LogEntry } from '@/components/safety/types';
 

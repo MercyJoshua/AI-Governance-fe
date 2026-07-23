@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trash2, Database } from 'lucide-react';
-import RiskBadge from './RiskBadge';
+import RiskBadge from './risk-badge';
 import type { LogEntry } from './types';
 
 interface LogsTableProps {

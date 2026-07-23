@@ -1,6 +1,6 @@
 import React from 'react';
 import { ShieldCheck, ShieldAlert, AlertTriangle } from 'lucide-react';
-import RiskBadge from './RiskBadge';
+import RiskBadge from './risk-badge';
 import type { AnalysisResult } from './types';
 
 interface ResponseCardProps {
